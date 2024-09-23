@@ -6,7 +6,7 @@
     <div class="space-bottom-2 space-top-1">
         <div class="container">
             <div class="row justify-content-xl-between">
-                <div class="col-12 col-lg-6 mb-6 mb-md-10 mb-xl-0">
+                <div class="col-12 col-lg-8 mb-6 mb-md-10 mb-xl-0">
                     <!-- Contacts -->
                     <div class ="d-md-flex d-lg-block">
                         <div class="mb-5 mr-md-7 mr-lg-0">
@@ -55,27 +55,12 @@
                         <li><a class="text-decoration-on-hover list-group-item list-group-item-action" href="/hotels">Hotels</a></li>
                         <li><a class="text-decoration-on-hover list-group-item list-group-item-action" href="/blog">Blog</a></li>
                         <li><a class="text-decoration-on-hover list-group-item list-group-item-action" href="mailto:sales@maldivesbeachvacation.com">Contact</a></li>
-                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/terms-and-conditions">Terms of Use</a></li>
-                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/privacy-policy">Privacy Statement</a></li>
+                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/terms">Terms of Use</a></li>
+                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/privacy">Privacy Statement</a></li>
                     </ul>
                     <!-- End List Group -->
                 </div>
 
-                <div class="col-12 col-md-3 col-lg-3 mb-6 mb-md-10 mb-xl-0">
-                    <h4 class="h6 font-weight-bold mb-2 mb-xl-4">Hotels</h4>
-                   <!-- List Group -->
-                    <ul class="list-group list-group-flush list-group-borderless mb-0">
-                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/hotels">Bed & Breakfast</a></li>
-                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/hotels">Budget Hotels</a></li>
-                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/hotels">Luxury Hotels</a></li>
-                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/hotels">Guest Houses</a></li>
-                        <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/hotels">Honeymooners</a></li>
-                    </ul>
-                    <!-- End List Group -->
-                </div>
-
-            
-               
             </div>
         </div>
     </div>
