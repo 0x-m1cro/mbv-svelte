@@ -42,6 +42,8 @@ declare module '$env/static/private' {
 	export const DriverData: string;
 	export const EDITOR: string;
 	export const EXEPATH: string;
+	export const FPS_BROWSER_APP_PROFILE_STRING: string;
+	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const GIT_ASKPASS: string;
 	export const HOME: string;
 	export const HOMEDRIVE: string;
@@ -76,7 +78,6 @@ declare module '$env/static/private' {
 	export const npm_config_noproxy: string;
 	export const npm_config_npm_version: string;
 	export const npm_config_prefix: string;
-	export const npm_config_registry: string;
 	export const npm_config_strict_ssl: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_user_agent: string;
@@ -103,6 +104,7 @@ declare module '$env/static/private' {
 	export const PKG_CONFIG_SYSTEM_INCLUDE_PATH: string;
 	export const PKG_CONFIG_SYSTEM_LIBRARY_PATH: string;
 	export const PLINK_PROTOCOL: string;
+	export const PNPM_HOME: string;
 	export const PROCESSOR_ARCHITECTURE: string;
 	export const PROCESSOR_IDENTIFIER: string;
 	export const PROCESSOR_LEVEL: string;
@@ -183,6 +185,8 @@ declare module '$env/dynamic/private' {
 		DriverData: string;
 		EDITOR: string;
 		EXEPATH: string;
+		FPS_BROWSER_APP_PROFILE_STRING: string;
+		FPS_BROWSER_USER_PROFILE_STRING: string;
 		GIT_ASKPASS: string;
 		HOME: string;
 		HOMEDRIVE: string;
@@ -217,7 +221,6 @@ declare module '$env/dynamic/private' {
 		npm_config_noproxy: string;
 		npm_config_npm_version: string;
 		npm_config_prefix: string;
-		npm_config_registry: string;
 		npm_config_strict_ssl: string;
 		npm_config_userconfig: string;
 		npm_config_user_agent: string;
@@ -244,6 +247,7 @@ declare module '$env/dynamic/private' {
 		PKG_CONFIG_SYSTEM_INCLUDE_PATH: string;
 		PKG_CONFIG_SYSTEM_LIBRARY_PATH: string;
 		PLINK_PROTOCOL: string;
+		PNPM_HOME: string;
 		PROCESSOR_ARCHITECTURE: string;
 		PROCESSOR_IDENTIFIER: string;
 		PROCESSOR_LEVEL: string;

@@ -519,46 +519,10 @@
 
                 <!-- Slick Tab carousel -->
                 <div class="u-slick__tab">
-                    <!-- Nav Links -->
-                    <div class="mb-5">
-                        <ul class="nav flex-nowrap border border-radius-3 tab-nav align-items-center py-2 px-0" role="tablist">
-                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1">
-                                <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-4 px-wd-5 font-weight-normal font-size-15 ">Recommended
-                                </a>
-                            </li>
-                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-wd-5 font-weight-normal font-size-15  text-gray-1 d-flex align-items-center">
-                                  <option value="one" selected>Price</option>
-                                  <option value="two">Two</option>
-                                  <option value="three">Three</option>
-                                  <option value="four">Four</option>
-                                </select>
-                            </li>
-                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-wd-5 font-weight-normal font-size-15  text-gray-1 d-flex align-items-center">
-                                  <option value="one" selected>Stars</option>
-                                  <option value="two">Two</option>
-                                  <option value="three">Three</option>
-                                  <option value="four">Four</option>
-                                </select>
-                            </li>
-                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-4 px-wd-5 font-weight-normal font-size-15 ">Guest Rating
-                                </a>
-                            </li>
-                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-4 px-wd-5 font-weight-normal font-size-15 ">Distance
-                                </a>
-                            </li>
-                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-4 px-wd-5 font-weight-normal font-size-15 ">Top Reviewed
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- End Nav Links -->
+                
+           
 
-                    <!-- Tab Content -->
+           
                     
                 
                     <div class="tab-content" id="pills-tabContent">
@@ -570,7 +534,7 @@
                                     <div class="card transition-3d-hover shadow-hover-2 tab-card h-100">
                                         <div class="position-relative">
                                             <a href="/hotels/{resort.hs_id}/{resort.slug}" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                <img class="min-height-230 bg-img-hero card-img-top" src="{`//img1.hotelscan.com/640_440/1/${resort.images[0].image_id}.jpg`}" alt="{resort.name}">
+                                                <img class="min-height-230 bg-img-hero card-img-top" src="{`//img1.hotelscan.com/640_440/1/${resort.images[0].image_id}.jpg`}" alt="{resort.name}" />
                                             </a>
                                             <!-- <div class="position-absolute top-0 right-0 pt-3 pr-3">
                                               <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">

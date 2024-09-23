@@ -54,6 +54,7 @@
                     <ul class="list-group list-group-flush list-group-borderless mb-0">
                         <li><a class="text-decoration-on-hover list-group-item list-group-item-action" href="/hotels">Hotels</a></li>
                         <li><a class="text-decoration-on-hover list-group-item list-group-item-action" href="/blog">Blog</a></li>
+                        <li><a class="text-decoration-on-hover list-group-item list-group-item-action" href="mailto:sales@maldivesbeachvacation.com">Contact</a></li>
                         <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/terms-and-conditions">Terms of Use</a></li>
                         <li><a class="list-group-item list-group-item-action text-decoration-on-hover" href="/privacy-policy">Privacy Statement</a></li>
                     </ul>

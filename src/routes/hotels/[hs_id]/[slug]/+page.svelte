@@ -8,7 +8,7 @@
     
     import LDTag from '$lib/components/misc/LDTag.svelte'
     import * as json from '$lib/data/maldives.json'    
-    //import {onMount} from 'svelte'
+    import {onMount} from "svelte"
     export let data;
 
     const { params } = data
@@ -41,13 +41,14 @@
     let hotel = getHotel[0]
     let hotelPromise
     async function getHotelPromise(){
-            const req = await fetch(`https://uni-api-server.vercel.app/api/hotel?hotelid=${hotelid}&checkin=2024-10-17&checkout=2024-10-20`)
+            const req = await fetch(`https://letsgo-seven.vercel.app/api/hotel?hotelid=${hotelid}&checkin=${checkin}&checkout=${checkout}&adults=2&child=0`)
             const res = await req.json()
-            let jsn = res.data.records[0]
+            let jsn = res?.data?.records[0]
             return jsn 
             
     }
     hotelPromise = getHotelPromise() 
+    
     function redirectToBooking(hotelName, arrivalDate, departureDate) {
             
             var bookingUrl = 'https://www.booking.com/searchresults.en-us.html?';
@@ -86,6 +87,7 @@
         description: hotel.short_description,
 }
   
+ 
 </script>
 <style>
     .fit-image { object-fit: cover !important;}
@@ -388,7 +390,7 @@
                                     </span>
                                 </span>
                             </a>
-                            {#each hotel.images as img }
+                            {#each hotel?.images as img }
                                 <img class="js-fancybox d-none" alt={hotel.name}
                                 data-width="100%"
                                 data-fancybox="fancyboxGallery8"
@@ -450,7 +452,7 @@
             <h5 id="scroll-description" class="font-size-21 font-weight-bold text-dark">
                 Hotel Info
             </h5>
-            <p>{ data.descriptions?.general ? data.descriptions?.general : data.descriptions?.description } </p>
+            <p>{ data?.descriptions?.general ? data?.descriptions?.general : data?.descriptions?.description } </p>
             
             <!-- <div class="collapse" id="collapseLinkExample">
                 <p>{ data.descriptions?.general ? data.descriptions?.general : '' }</p>
@@ -532,7 +534,7 @@
                     </div>
                 </div>
             </div>
-            {#each data.all_offers.filter(of => of.vendor == 'bkng') as offer}                    
+            {#each data?.all_offers.filter(of => of.vendor == 'bkng') as offer}                    
             <div class="card border-color-7 mb-5 overflow-hidden">
                 <!-- <div class="position-absolute top-0 right-0 mr-md-1 mt-md-1">
                     <div class="border border-brown bg-brown rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-2 mt-2">
