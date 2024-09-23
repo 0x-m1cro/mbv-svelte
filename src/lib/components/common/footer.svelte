@@ -48,7 +48,7 @@
                     </div>
                     <!-- End Contacts -->
                 </div>
-                <div class="col-12 col-md-3 col-lg-3 mb-6 mb-md-10 mb-xl-0">
+                <div class="col-12 col-md-3 col-lg-2 mb-6 mb-md-10 mb-xl-0">
                     <h4 class="h6 font-weight-bold mb-2 mb-xl-4">Company</h4>
                     <!-- List Group -->
                     <ul class="list-group list-group-flush list-group-borderless mb-0">

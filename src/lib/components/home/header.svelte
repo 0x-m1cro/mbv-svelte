@@ -56,7 +56,7 @@
 
 
 
-<header id="header" class="u-header u-header--abs-top-xl u-header--white-nav-links-xl u-header--bg-transparent-xl u-header--show-hide-xl" data-header-fix-moment="500" data-header-fix-effect="slide">
+<header id="header" class="u-header u-header--abs-top-xl u-header--white-nav-links-xl u-header--bg-transparent-xl u-header--show-hide-xl u-header--untransitioned" data-header-fix-moment="500" data-header-fix-effect="slide">
     <div class="u-header__section u-header__shadow-on-show-hide py-4 py-xl-0">
         <!-- Topbar -->
         <div class="container-fluid u-header__hide-content u-header__topbar u-header__topbar-lg border-bottom border-color-white">

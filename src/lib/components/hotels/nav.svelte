@@ -7,16 +7,6 @@
     <!-- End Logo -->
 
 
-    <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-on-scroll" href="/" aria-label="MaldivesBeachVacation">
-        <img src="/assets/img/mbv-logo-new.png" height="130px">
-        <span class="u-header__navbar-brand-text"> </span>
-    </a>
-
-    <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-collapsed" href="../home/index.html" aria-label="MyHotel">
-        <img src="/assets/img/mbv-logo-new.png" height="130px">
-        <span class="u-header__navbar-brand-text"> </span>
-    </a>
-
     <!-- Responsive Toggle Button -->
     <button type="button" class="navbar-toggler btn u-hamburger u-hamburger--primary order-2 ml-3" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
         <span id="hamburgerTrigger" class="u-hamburger__box">

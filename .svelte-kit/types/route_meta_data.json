@@ -10,5 +10,6 @@
 	"/hotels/[hs_id]/[slug]": [
 		"src/routes/hotels/[hs_id]/[slug]/+page.js"
 	],
+	"/privacy": [],
 	"/terms": []
 }

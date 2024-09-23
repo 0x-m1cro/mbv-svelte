@@ -1,5 +1,5 @@
 <script>
-    import Header from '$lib/components/hotel/header.svelte';
+    import Header from '$lib/components/hotels/header.svelte';
 	import Footer from '$lib/components/common/footer.svelte';
     import Preloader from '$lib/components/common/preloader.svelte'
     import PagePreloader from '$lib/components/common/pagepreloader.svelte'
@@ -33,7 +33,13 @@
 			return ''
 		}
 	}
-    
+    const today = new Date()
+    const arrdate = new Date(today.setDate(today.getDate() + 10));
+    const depdate = new Date(today.setDate(arrdate.getDate() + 10));
+    const formatter = new Intl.DateTimeFormat('en-CA');
+    const arr = formatter.format(arrdate)
+    const dep = formatter.format(depdate)
+    console.log([dep, arr])
     const hotels = json?.data?.records
     let getHotel = hotels.filter(h => {
             return h.hs_id == hotelid
@@ -41,7 +47,7 @@
     let hotel = getHotel[0]
     let hotelPromise
     async function getHotelPromise(){
-            const req = await fetch(`https://letsgo-seven.vercel.app/api/hotel?hotelid=${hotelid}&checkin=${checkin}&checkout=${checkout}&adults=2&child=0`)
+            const req = await fetch(`https://letsgo-seven.vercel.app/api/hotel?hotelid=${hotelid ? hotel.hs_id : ''}&checkin=${checkin ? arr : arr }&checkout=${checkout ? dep : dep}&adults=2&child=0`)
             const res = await req.json()
             let jsn = res?.data?.records[0]
             return jsn 
@@ -87,7 +93,9 @@
         description: hotel.short_description,
 }
   
- 
+onMount(() => {
+		console.log('the component has mounted');
+	});
 </script>
 <style>
     .fit-image { object-fit: cover !important;}
